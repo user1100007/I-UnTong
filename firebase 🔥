@@ -1,0 +1,17 @@
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged, createUserWithEmailAndPassword }
+  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import { getFirestore, doc, setDoc, getDoc, onSnapshot }
+  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDwYGbelzf1vVOaMmTPm63yDtsjTOGIxnU",
+  authDomain: "create-adf92.firebaseapp.com",
+  projectId: "create-adf92",
+  storageBucket: "create-adf92.firebasestorage.app",
+  messagingSenderId: "529723873139",
+  appId: "1:529723873139:web:ee622f872ed9bb439a1706",
+  measurementId: "G-EZ4JMN78EZ"
+};
